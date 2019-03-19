@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://baoxiao:baoxiao@192.168.192.131:27017/baoxiao?authMechanism=SCRAM-SHA-1
+      password: baoxiao
+      username: baoxiao
+  custom:
+    cors:
+      allowedOrigins: "*"
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+#security:
+#  user:
+#    name: admin
+#    password: password
+#management:
+#  security:
+#    role: SUPERUSER
